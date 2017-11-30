@@ -83,7 +83,6 @@ h1 {
   color: #ffffff; }
 
 h2 {
-  margin-bottom: 10%;
   font-size: 2.0588235294rem;
   font-weight: 300;
   color: #222626; }
@@ -130,6 +129,13 @@ p {
   left: 50%;
   height: 650px;
   width: 600px; }
+
+/* About */
+.aboutTab__text {
+  padding-top: 5%; }
+
+.aboutTabRigth {
+  padding-top: 13%; }
 
 /* Grid */
 .col-lg-1 {
