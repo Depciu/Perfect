@@ -1,0 +1,23 @@
+$base-font-size: 17px
+
+@function calculateRem($size)
+  $remSize: $size / $base-font-size
+  @return $remSize * 1rem
+
+@mixin font-size($size)
+  font-size: calculateRem($size)
+
+@mixin background-properties
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+
+$font-black-color: #222626
+$font-grey-color: #959595
+$font-white-color: #ffffff
+
+$background-pink-color: #f5989d
+$background-purple-color: #bd8cbf
+$background-dark_purple-color: #615f7d
+$background-green-color: #82ca9c
+$background-darkblue-color: #192431
