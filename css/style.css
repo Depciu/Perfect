@@ -58,12 +58,12 @@ table {
 
 .container {
   width: 100%;
-  padding: 0 70px 0 70px;
+  padding: 0 15px 0 15px;
   max-width: 1170px;
   margin: 0 auto; }
 
 section {
-  margin-top: em(50px); }
+  margin-top: 50px; }
 
 html {
   font-size: 17px; }
@@ -96,6 +96,40 @@ p {
   line-height: 1.412rem;
   font-weight: 400;
   color: #959595; }
+
+/* Header */
+.hero {
+  position: relative;
+  height: 800px;
+  width: 100%;
+  max-width: 1800px;
+  background-image: url("../images/hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.hero__logo {
+  height: 45px;
+  width: 95px;
+  margin-top: 5%; }
+
+.hero__content {
+  width: 100%;
+  max-width: 500px;
+  padding-top: 25%; }
+
+.hero__content--title {
+  padding-bottom: 5%; }
+
+.hero__content--text {
+  color: #ffffff; }
+
+.hero__phone {
+  position: absolute;
+  bottom: -25%;
+  left: 50%;
+  height: 650px;
+  width: 600px; }
 
 /* Grid */
 .col-lg-1 {
