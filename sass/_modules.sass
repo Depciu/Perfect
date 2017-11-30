@@ -38,6 +38,44 @@
 .aboutTabRigth
   padding-top: 13%
 
+/* Gallery */
+#gallery
+  width: 100%
+  max-width: 1800px
+
+.photo
+  height: 230px
+  &__1
+    background-color: $background-pink-color
+  &__2
+    background-color: $background-dark_purple-color
+  &__3
+    background-image: url("../images/photo1.jpg")
+    @include background-properties
+  &__4
+    background-color: $background-purple-color
+  &__5
+    background-image: url("../images/photo2.jpg")
+    @include background-properties
+    .layer
+      .fa-heart-o
+        margin-left: 70%
+  &__6
+    background-color: $background-green-color
+  &__7
+    background-image: url("../images/photo1.jpg")
+    @include background-properties
+
+.photo__layer--link
+  display: inline-block
+
+.fa
+  color: $font-white-color
+
+.fa-heart-o
+  margin-left: 40%
+
+
 
 /* Grid */
 

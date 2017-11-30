@@ -137,6 +137,48 @@ p {
 .aboutTabRigth {
   padding-top: 13%; }
 
+/* Gallery */
+#gallery {
+  width: 100%;
+  max-width: 1800px; }
+
+.photo {
+  height: 230px; }
+  .photo__1 {
+    background-color: #f5989d; }
+  .photo__2 {
+    background-color: #615f7d; }
+  .photo__3 {
+    background-image: url("../images/photo1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .photo__4 {
+    background-color: #bd8cbf; }
+  .photo__5 {
+    background-image: url("../images/photo2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+    .photo__5 .layer .fa-heart-o {
+      margin-left: 70%; }
+  .photo__6 {
+    background-color: #82ca9c; }
+  .photo__7 {
+    background-image: url("../images/photo1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+
+.photo__layer--link {
+  display: inline-block; }
+
+.fa {
+  color: #ffffff; }
+
+.fa-heart-o {
+  margin-left: 40%; }
+
 /* Grid */
 .col-lg-1 {
   width: 8.33%; }
