@@ -224,6 +224,12 @@ p {
   right: 10%;
   color: #ffffff; }
 
+.fa-heart {
+  opacity: 0;
+  transition: opacity 0.5s; }
+  .fa-heart:hover {
+    opacity: 1; }
+
 /* Grid */
 .col-lg-1 {
   width: 8.33%; }
