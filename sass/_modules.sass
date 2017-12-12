@@ -45,35 +45,80 @@
 
 .photo
   height: 230px
+  cursor: pointer
   &__1
     background-color: $background-pink-color
+    transition: background-color 0.5s
+    &:hover
+      background-color: darken($background-pink-color, 5%)
   &__2
     background-color: $background-dark_purple-color
+    transition: background-color 0.5s
+    &:hover
+      background-color: darken($background-dark_purple-color, 5%)
   &__3
     background-image: url("../images/photo1.jpg")
     @include background-properties
+    transition: opacity 0.5s
+    &:hover
+      opacity: 0.9
   &__4
     background-color: $background-purple-color
+    transition: background-color 0.5s
+    &:hover
+      background-color: darken($background-purple-color, 5%)
   &__5
     background-image: url("../images/photo2.jpg")
     @include background-properties
+    transition: opacity 0.5s
+    &:hover
+      opacity: 0.9
     .layer
-      .fa-heart-o
-        margin-left: 70%
+      padding-top: 2.5%
+      padding-left: 2.5%
+    .fa
+      right: 5% 
+      .photo__layer--text
+        padding-top: 2.5%
+        padding-bottom: 7.5%
+
+
   &__6
     background-color: $background-green-color
+    transition: background-color 0.5s
+    &:hover
+      background-color: darken($background-green-color, 5%)
   &__7
     background-image: url("../images/photo3.jpg")
     @include background-properties
+    transition: opacity 0.5s
+    &:hover
+      opacity: 0.9
+
+.layer
+  position: relative
+  padding-top: 5%
+  padding-left: 5%
 
 .photo__layer--link
   display: inline-block
+  font-weight: 300
+  transition: font-size 1s
+  cursor: pointer
+  &:hover
+    @include font-size(18px)
+
+.photo__layer--text
+  padding-top: 5%
+  padding-bottom: 8%
+  font-weight: 300
+  color: #ffffff
 
 .fa
+  position: absolute
+  right: 10%
   color: $font-white-color
 
-.fa-heart-o
-  margin-left: 40%
 
 
 

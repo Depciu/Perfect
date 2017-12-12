@@ -88,6 +88,8 @@ h2 {
   color: #222626; }
 
 h3 {
+  font-size: 1.2941176471rem;
+  font-weight: 300;
   color: #ffffff; }
 
 p {
@@ -143,41 +145,84 @@ p {
   max-width: 1800px; }
 
 .photo {
-  height: 230px; }
+  height: 230px;
+  cursor: pointer; }
   .photo__1 {
-    background-color: #f5989d; }
+    background-color: #f5989d;
+    transition: background-color 0.5s; }
+    .photo__1:hover {
+      background-color: #f38187; }
   .photo__2 {
-    background-color: #615f7d; }
+    background-color: #615f7d;
+    transition: background-color 0.5s; }
+    .photo__2:hover {
+      background-color: #56546f; }
   .photo__3 {
     background-image: url("../images/photo1.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover; }
+    background-size: cover;
+    transition: opacity 0.5s; }
+    .photo__3:hover {
+      opacity: 0.9; }
   .photo__4 {
-    background-color: #bd8cbf; }
+    background-color: #bd8cbf;
+    transition: background-color 0.5s; }
+    .photo__4:hover {
+      background-color: #b47cb6; }
   .photo__5 {
     background-image: url("../images/photo2.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover; }
-    .photo__5 .layer .fa-heart-o {
-      margin-left: 70%; }
+    background-size: cover;
+    transition: opacity 0.5s; }
+    .photo__5:hover {
+      opacity: 0.9; }
+    .photo__5 .layer {
+      padding-top: 2.5%;
+      padding-left: 2.5%; }
+    .photo__5 .fa {
+      right: 5%; }
+      .photo__5 .fa .photo__layer--text {
+        padding-top: 2.5%;
+        padding-bottom: 7.5%; }
   .photo__6 {
-    background-color: #82ca9c; }
+    background-color: #82ca9c;
+    transition: background-color 0.5s; }
+    .photo__6:hover {
+      background-color: #70c28e; }
   .photo__7 {
     background-image: url("../images/photo3.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover; }
+    background-size: cover;
+    transition: opacity 0.5s; }
+    .photo__7:hover {
+      opacity: 0.9; }
+
+.layer {
+  position: relative;
+  padding-top: 5%;
+  padding-left: 5%; }
 
 .photo__layer--link {
-  display: inline-block; }
+  display: inline-block;
+  font-weight: 300;
+  transition: font-size 1s;
+  cursor: pointer; }
+  .photo__layer--link:hover {
+    font-size: 1.0588235294rem; }
 
-.fa {
+.photo__layer--text {
+  padding-top: 5%;
+  padding-bottom: 8%;
+  font-weight: 300;
   color: #ffffff; }
 
-.fa-heart-o {
-  margin-left: 40%; }
+.fa {
+  position: absolute;
+  right: 10%;
+  color: #ffffff; }
 
 /* Grid */
 .col-lg-1 {
