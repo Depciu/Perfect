@@ -231,11 +231,11 @@ p {
     opacity: 1; }
 
 /* Details */
+.detailsTab {
+  padding-top: 5%; }
+
 .details__title {
   padding-left: 12px; }
-
-.tab {
-  padding-top: 5%; }
 
 .detailsTab__title {
   font-size: 0.8823529412rem; }
