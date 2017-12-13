@@ -181,11 +181,11 @@ p {
     .photo__5 .layer {
       padding-top: 2.5%;
       padding-left: 2.5%; }
+      .photo__5 .layer .photo__layer--text {
+        padding-top: 2.5%;
+        padding-bottom: 5%; }
     .photo__5 .fa {
       right: 5%; }
-      .photo__5 .fa .photo__layer--text {
-        padding-top: 2.5%;
-        padding-bottom: 7.5%; }
   .photo__6 {
     background-color: #82ca9c;
     transition: background-color 0.5s; }
@@ -229,6 +229,19 @@ p {
   transition: opacity 0.5s; }
   .fa-heart:hover {
     opacity: 1; }
+
+/* Details */
+.details__title {
+  padding-left: 12px; }
+
+.tab {
+  padding-top: 5%; }
+
+.detailsTab__title {
+  font-size: 0.8823529412rem; }
+
+.detailsTab__text {
+  padding-top: 7%; }
 
 /* Grid */
 .col-lg-1 {
