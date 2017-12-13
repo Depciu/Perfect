@@ -185,7 +185,8 @@ p {
         padding-top: 2.5%;
         padding-bottom: 5%; }
     .photo__5 .fa {
-      right: 5%; }
+      right: 5%;
+      bottom: 0.5%; }
   .photo__6 {
     background-color: #82ca9c;
     transition: background-color 0.5s; }
