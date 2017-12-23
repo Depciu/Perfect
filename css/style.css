@@ -119,10 +119,10 @@ p {
   max-width: 500px;
   padding-top: 25%; }
 
-.hero__content--title {
+.hero__content--title, .secondHero__content--title {
   padding-bottom: 5%; }
 
-.hero__content--text {
+.hero__content--text, .secondHero__content--text {
   color: #ffffff; }
 
 .hero__phone {
@@ -182,8 +182,7 @@ p {
       padding-top: 2.5%;
       padding-left: 2.5%; }
       .photo__5 .layer .photo__layer--text {
-        padding-top: 2.5%;
-        padding-bottom: 5%; }
+        padding-top: 2.5%; }
     .photo__5 .fa {
       right: 5%;
       bottom: 0.5%; }
@@ -206,12 +205,12 @@ p {
   padding-top: 5%;
   padding-left: 5%; }
 
-.photo__layer--link {
+.photo__layer--link, .secondHero__content--link {
   display: inline-block;
-  font-weight: 300;
+  font-weight: 700;
   transition: font-size 1s;
   cursor: pointer; }
-  .photo__layer--link:hover {
+  .photo__layer--link:hover, .secondHero__content--link:hover {
     font-size: 1.0588235294rem; }
 
 .photo__layer--text {
@@ -243,6 +242,26 @@ p {
 
 .detailsTab__text {
   padding-top: 7%; }
+
+/*More Power */
+.secondHero {
+  position: relative;
+  height: 600px;
+  width: 100%;
+  max-width: 1800px;
+  background-image: url("../images/car.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.secondHero__content {
+  position: absolute;
+  bottom: 10%;
+  width: 100%;
+  max-width: 510px; }
+
+.secondHero__content--text {
+  padding-bottom: 5%; }
 
 /* Grid */
 .col-lg-1 {

@@ -78,7 +78,6 @@
       padding-left: 2.5%
       .photo__layer--text
         padding-top: 2.5%
-        padding-bottom: 5%
     .fa
       right: 5%
       bottom: 0.5%
@@ -101,7 +100,7 @@
 
 .photo__layer--link
   display: inline-block
-  font-weight: 300
+  font-weight: 700
   transition: font-size 1s
   cursor: pointer
   &:hover
@@ -135,7 +134,29 @@
 .detailsTab__text
   padding-top: 7%
 
+/*More Power*/
+.secondHero
+  position: relative
+  height: 600px
+  width: 100%
+  max-width: 1800px
+  background-image: url("../images/car.jpg")
+  @include background-properties
 
+.secondHero__content
+  position: absolute
+  bottom: 10%
+  width: 100%
+  max-width: 550px
+
+.secondHero__content--title
+  @extend .hero__content--title
+.secondHero__content--text
+  padding-bottom: 5%
+  @extend .hero__content--text
+
+.secondHero__content--link
+  @extend .photo__layer--link
 /* Grid */
 
 .col-lg-1
