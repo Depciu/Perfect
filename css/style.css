@@ -246,7 +246,7 @@ p {
 /*More Power */
 .secondHero {
   position: relative;
-  height: 600px;
+  height: 800px;
   width: 100%;
   max-width: 1800px;
   background-image: url("../images/car.jpg");
@@ -258,7 +258,7 @@ p {
   position: absolute;
   bottom: 10%;
   width: 100%;
-  max-width: 510px; }
+  max-width: 550px; }
 
 .secondHero__content--text {
   padding-bottom: 5%; }
