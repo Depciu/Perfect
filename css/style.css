@@ -63,7 +63,7 @@ table {
   margin: 0 auto; }
 
 section {
-  margin-top: 50px; }
+  margin-top: 100px; }
 
 html {
   font-size: 17px; }
@@ -231,16 +231,16 @@ p {
     opacity: 1; }
 
 /* Details */
-.detailsTab {
+.detailsTab, .onboardTab {
   padding-top: 5%; }
 
-.details__title {
-  padding-left: 12px; }
+.details__title, .onboard__title {
+  padding-left: 10px; }
 
-.detailsTab__title {
+.detailsTab__title, .onboardTab__title {
   font-size: 0.8823529412rem; }
 
-.detailsTab__text {
+.detailsTab__text, .onboardTab__text {
   padding-top: 7%; }
 
 /*More Power */
@@ -262,6 +262,17 @@ p {
 
 .secondHero__content--text {
   padding-bottom: 5%; }
+
+/*Onboard */
+#onboard {
+  margin-top: 0;
+  background-color: #82ca9c; }
+
+.onboard {
+  padding: 100px 0; }
+
+.onboard__title, .onboardTab__title, .onboardTab__text {
+  color: #ffffff; }
 
 /* Grid */
 .col-lg-1 {

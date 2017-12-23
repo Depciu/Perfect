@@ -128,7 +128,7 @@
 .detailsTab
   padding-top: 5%
 .details__title
-  padding-left: 12px
+  padding-left: 10px
 .detailsTab__title
   @include font-size(15px)
 .detailsTab__text
@@ -151,12 +151,37 @@
 
 .secondHero__content--title
   @extend .hero__content--title
+
 .secondHero__content--text
   padding-bottom: 5%
   @extend .hero__content--text
 
 .secondHero__content--link
   @extend .photo__layer--link
+
+/*Onboard*/
+#onboard
+  margin-top: 0
+  background-color: $background-green-color
+
+.onboard
+  padding: 100px 0
+
+.onboard__title, .onboardTab__title, .onboardTab__text
+  color: $font-white-color
+
+.onboardTab
+  @extend .detailsTab
+
+.onboard__title
+  @extend .details__title
+
+.onboardTab__title
+  @extend .detailsTab__title
+
+.onboardTab__text
+  @extend .detailsTab__text
+
 /* Grid */
 
 .col-lg-1
