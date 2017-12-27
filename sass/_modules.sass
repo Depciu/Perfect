@@ -76,11 +76,11 @@
     .layer
       padding-top: 2.5%
       padding-left: 2.5%
+      .fa
+        right: 5%
+        bottom: 0.5%
       .photo__layer--text
         padding-top: 2.5%
-    .fa
-      right: 5%
-      bottom: 0.5%
   &__6
     background-color: $background-green-color
     transition: background-color 0.5s
@@ -101,10 +101,11 @@
 .photo__layer--link
   display: inline-block
   font-weight: 700
+  @include font-size(14px)
   transition: font-size 1s
   cursor: pointer
   &:hover
-    @include font-size(18px)
+    @include font-size(15px)
 
 .photo__layer--text
   padding-top: 5%
@@ -112,10 +113,11 @@
   font-weight: 300
   color: #ffffff
 
-.fa
-  position: absolute
-  right: 10%
-  color: $font-white-color
+.layer
+  .fa
+    position: absolute
+    right: 10%
+    color: $font-white-color
 
 .fa-heart
   opacity: 0
@@ -182,8 +184,12 @@
 .onboardTab__text
   @extend .detailsTab__text
 
-/* Grid */
+/*Product*/
+.product
+  max-width: 1000px
+  margin: 0 auto
 
+/* Grid */
 .col-lg-1
   width: 8.33%
 .col-lg-2

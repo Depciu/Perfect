@@ -12,7 +12,7 @@
     "update:sassprefixer": "npm run build:sass && npm run build:autoprefixer",
     "watch": "parallelshell \"npm run watch:sassprefixer\" \"npm run watch:browser-sync\" ",
     "watch:sassprefixer": "glob-run onchange sass -- npm run update:sassprefixer",
-    "watch:browser-sync": "glob-run browser-sync start --server --files css/style.css, index.html"
+    "watch:browser-sync": "glob-run browser-sync start --server --files css/style.css index.html"
   },
   "repository": {
     "type": "git",

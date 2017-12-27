@@ -181,11 +181,11 @@ p {
     .photo__5 .layer {
       padding-top: 2.5%;
       padding-left: 2.5%; }
+      .photo__5 .layer .fa {
+        right: 5%;
+        bottom: 0.5%; }
       .photo__5 .layer .photo__layer--text {
         padding-top: 2.5%; }
-    .photo__5 .fa {
-      right: 5%;
-      bottom: 0.5%; }
   .photo__6 {
     background-color: #82ca9c;
     transition: background-color 0.5s; }
@@ -208,10 +208,11 @@ p {
 .photo__layer--link, .secondHero__content--link {
   display: inline-block;
   font-weight: 700;
+  font-size: 0.8235294118rem;
   transition: font-size 1s;
   cursor: pointer; }
   .photo__layer--link:hover, .secondHero__content--link:hover {
-    font-size: 1.0588235294rem; }
+    font-size: 0.8823529412rem; }
 
 .photo__layer--text {
   padding-top: 5%;
@@ -219,7 +220,7 @@ p {
   font-weight: 300;
   color: #ffffff; }
 
-.fa {
+.layer .fa {
   position: absolute;
   right: 10%;
   color: #ffffff; }
@@ -273,6 +274,11 @@ p {
 
 .onboard__title, .onboardTab__title, .onboardTab__text {
   color: #ffffff; }
+
+/*Product */
+.product {
+  max-width: 1000px;
+  margin: 0 auto; }
 
 /* Grid */
 .col-lg-1 {
