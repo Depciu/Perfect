@@ -68,6 +68,9 @@ button {
 section {
   padding-top: 100px; }
 
+footer {
+  padding: 100px 0; }
+
 html {
   font-size: 17px; }
 
@@ -280,7 +283,8 @@ p {
 
 /*Product */
 #product {
-  background-color: #f2f2f2; }
+  background-color: #f2f2f2;
+  padding-bottom: 100px; }
 
 .product {
   max-width: 1000px;
@@ -335,6 +339,13 @@ p {
     transition: 1s color; }
     .productTab__icon .fa-windows:hover {
       color: #222626; }
+
+/* Footer */
+#footer {
+  background-color: #192431; }
+
+.footer__title {
+  color: #ffffff; }
 
 /* Grid */
 .col-lg-1 {
