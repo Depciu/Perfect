@@ -4,6 +4,7 @@
   height: 800px
   width: 100%
   max-width: 1800px
+  margin: 0 auto
   background-image: url("../images/hero.jpg")
   @include background-properties
 
@@ -142,6 +143,7 @@
   height: 800px
   width: 100%
   max-width: 1800px
+  margin: 0 auto
   background-image: url("../images/car.jpg")
   @include background-properties
 
@@ -220,7 +222,7 @@
   text-transform: uppercase
   color: $font-white-color
   cursor: pointer
-  transition: 0.5s background-color
+  transition: background-color 0.5s
   &:hover
     background-color: darken($background-green-color, 15%)
 
@@ -246,8 +248,53 @@
 /* Footer */
 #footer
   background-color: $background-darkBlue-color
-.footer__title
+  @include font-size(15px)
   color: $font-white-color
+
+.footer__title
+  font-weight: 300
+
+.footer__text
+  padding-top: 5%
+  font-weight: 300
+  color: $font-white-color
+
+.footer__list--content
+  padding: 10% 0 0 0
+
+.footer__list
+  padding-top: 10%
+
+.footer__list--item
+  padding-top: 5%
+  font-weight: 300
+  transition: font-size 0.5s
+  &:hover
+    @include font-size(15.5px)
+
+.footer__contact
+  padding-left: 10%
+
+.footer__form
+  position: relative
+  padding-top: 5%
+
+.footer__form--input
+  width: 100%
+  height: 51px
+  padding-left: 2%
+  @include font-size(15px)
+
+.fa-check
+  position: absolute
+  bottom: 0
+  right: -1px
+  padding: 18px
+  background-color: $background-green-color
+
+.footer__contact--text
+  margin-top: 2%
+  @include font-size(11px)
 
 /* Grid */
 .col-lg-1
