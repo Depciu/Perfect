@@ -16,14 +16,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Depciu/Phone.git"
+    "url": "git+https://github.com/Depciu/Perfect.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Depciu/Phone/issues"
+    "url": "https://github.com/Depciu/Perfect/issues"
   },
-  "homepage": "https://github.com/Depciu/Phone#readme",
+  "homepage": "https://github.com/Depciu/Perfect#readme",
   "dependencies": {
     "autoprefixer-cli": "^1.0.0",
     "browser-sync": "^2.18.13",
